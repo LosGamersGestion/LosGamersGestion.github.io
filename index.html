@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Archivos PDF</title>
+    <link rel="stylesheet" href="/Indice/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Portafolio los gamers</h2>
+            <img src="img1.png" alt="logo equipo" class="portafolio-img">
+            <img src="img2.jpg" alt="logo producto" class="portafolio-img2">
+            <ul class="folder">
+                <li>
+                    <h3 class="toggle" onclick="toggleFolder(event)">Definición del alcance</h3>
+                    <ul class="content">
+                        <li><a href="/Definición del Alcance del Proyecto/Presentacion identidad de equipo y proyecto.pdf" onclick="openDocument(event)">Presentacion identidad de equipo y proyecto</a></li>
+                        <li><a href="/Definición del Alcance del Proyecto/Deficion alcance del proyecto.pdf" onclick="openDocument(event)">Deficion alcance del proyecto</a></li>
+                        <li><a href="/Definición del Alcance del Proyecto/Acta constitutiva.pdf" onclick="openDocument(event)">Acta constitutiva</a></li>
+                        <li><a href="/Definición del Alcance del Proyecto/Acuerdo de trabajo (SOW).pdf" onclick="openDocument(event)">Acuerdo de trabajo (SOW)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="toggle" onclick="toggleFolder(event)">Planificación del proyecto</h3>
+                    <ul class="content">
+                        <li><a href="/Planificación del Proyecto/Documento plan de gestion del proyecto software (primera version).pdf" onclick="openDocument(event)">Documento plan de gestion del proyecto software (primera version)</a></li>
+                        <li><a href="/Planificación del Proyecto/Estructura de descomposicion de trabajo (WBS).pdf" onclick="openDocument(event)">Estructura de descomposicion de trabajo (WBS)</a></li>
+                        <li><a href="/Planificación del Proyecto/Roles y responsabilidades.pdf" onclick="openDocument(event)">Roles y responsabilidades</a></li>
+                        <li><a href="/Planificación del Proyecto/Calendarizacion de tareas.pdf" onclick="openDocument(event)">Calendarizacion de tareas</a></li>
+                        <li><a href="/Planificación del Proyecto/Secuencias de tareas.pod" onclick="openDocument(event)">Secuencias de tareas</a></li>
+                        <li><a href="/Planificación del Proyecto/Artefactos corregidos (wbs,planificacion detallada,scheduling).xlsx" onclick="openDocument(event)">Artefactos corregidos (wbs,planificacion detallada,scheduling)</a></li>
+                        <li><a href="/Planificación del Proyecto/Estimacion de esfuerzos(Montecarlo).pdf" onclick="openDocument(event)">Estimacion de esfuerzos(Montecarlo)</a></li>
+                        <li><a href="/Planificación del Proyecto/Estimacion de esfuerzos (COCOMO).pdf" onclick="openDocument(event)">Estimacion de esfuerzos (COCOMO)</a></li>
+                        <li><a href="/Planificación del Proyecto/Estiamcion de esfuerzo (puntos de funcion).pdf" onclick="openDocument(event)">Estimacion de esfuerzo (puntos de funcion)</a></li>
+                        <li><a href="/Planificación del Proyecto/Estimacion de costos.pdf" onclick="openDocument(event)">Estimacion de costos</a></li>
+                        <li><a href="/Planificación del Proyecto/Plan de comunicacion.pdf" onclick="openDocument(event)">Plan de comunicacion</a></li>
+                        <li><a href="/Planificación del Proyecto/Plan de control de cambios.pdf" onclick="openDocument(event)">Plan de control de cambios</a></li>
+                        <li><a href="/Planificación del Proyecto/Plan de calidad.pdf" onclick="openDocument(event)">Plan de calidad</a></li>
+                        <li><a href="/Planificación del Proyecto/Plan de gestion de riesgos.pdf" onclick="openDocument(event)">Plan de gestion de riesgos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="toggle" onclick="toggleFolder(event)">Ejecución, monitoreo y control</h3>
+                    <ul class="content">
+                        <li><a href="/Ejecución, Monitoreo y Control del Proyecto/Tecnica para seguimientos de avance del proyecto (valor ganado).xlsx" onclick="openDocument(event)">Tecnica para seguimientos de avance del proyecto (valor ganado)</a></li>
+                        <li><a href="/Ejecución, Monitoreo y Control del Proyecto/Control de cambios (ejemplo).pdf" onclick="openDocument(event)">Control de cambios (ejemplo)</a></li>
+                        <li><a href="/Ejecución, Monitoreo y Control del Proyecto/Replanificacion del proyecto Gamers.pdf" onclick="openDocument(event)">Replanificacion del proyecto Gamers</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="toggle" onclick="toggleFolder(event)">Cierre del proyecto</h3>
+                    <ul class="content">
+                        <li><a href="/Cierre del proyecto/Cierre del proyecto.pdf" onclick="openDocument(event)">Cierre del proyecto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="pdf-container">
+            <embed id="document-viewer" src="" type="application/pdf" frameborder="0"></embed>
+        </div>
+    </div>
+    <script src="/Indice/script.js"></script>
+</body>
+</html>
